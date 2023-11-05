@@ -5,7 +5,7 @@
 }
 .banner{
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     background-image: linear-gradient(rgba(110, 96, 110, 0.685),rgba(110, 96, 110, 0.685)), url("../../images/A13P1136.jpg");
     background-size: cover;
     background-position:center;
