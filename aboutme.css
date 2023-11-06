@@ -5,12 +5,14 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner{
-    width: 100%;
-    height: 120vh;
-    background-image: linear-gradient(rgba(110, 96, 110, 0.685),rgba(110, 96, 110, 0.685)), url("../../images/github.jpg");
+.bg {
+    min-width: 100%;
+    min-height: 100%;
+    background-image: linear-gradient(rgba(110, 96, 110, 0.685),rgba(110, 96, 110, 0.685));
     background-size: cover;
     background-position:center;
+    position: fixed;
+    z-index: -1;
 }
 
 .navbar{
