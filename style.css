@@ -21,17 +21,18 @@
 }
 
 .logo{
-    width: 220px;
+    width: clamp(1rem, 60vw, 20rem);
     cursor: pointer;
 }
 
 .navbar ul li{
-   list-style: none;
-   display: inline-block;
-   margin: 0 10px;
-   position:sticky;
-   font-size: clamp(.5rem, 4vw, 1.5rem);;
-}
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+    font-size: clamp(.5rem, 4vw, 1.5rem);
+ }
+
 
 .navbar ul li a{
     text-decoration: none;
