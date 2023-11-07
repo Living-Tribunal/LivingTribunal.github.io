@@ -10,9 +10,10 @@
     min-height: 100%;
     background-image: linear-gradient(rgba(110, 96, 110, 0.685),rgba(110, 96, 110, 0.685));
     background-size: cover;
-    background-position:center;
+    background-position:center center;
     position: fixed;
     z-index: -1;
+    background-attachment: fixed;
 }
 
 .navbar{
