@@ -12,6 +12,7 @@
     background-position:center;
     position: fixed;
     z-index: -1;
+    border-radius: 0px;
 }
 
 .navbar{
