@@ -55,15 +55,6 @@
     width: 100%;
 }
 
-.brand{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color:rgb(255, 255, 255)
-}
-
 .content{
     width: 100%;
     color:rgb(255, 255, 255);
@@ -78,7 +69,6 @@
     font-size: clamp(2rem, 10vw, 8rem);
     padding-bottom: 5px;
 }
-
 
 button{
     width: 200px;
