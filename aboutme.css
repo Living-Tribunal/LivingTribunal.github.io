@@ -6,22 +6,13 @@
 }
 
 .bg {
-    min-width: 100%;
+    width: 100%;
     min-height: 100%;
     background-image: linear-gradient(rgba(110, 96, 110, 0.685),rgba(110, 96, 110, 0.685));
     background-size: cover;
     background-position:center center;
     position: fixed;
     z-index: -1;
-}
-
-.navbar{
-    width: 85%;
-    margin: auto;
-    padding: 25px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .navbar{
@@ -70,7 +61,7 @@
 
 h2{
     font-size: 100px;
-    margin-top: 50px;
+    margin-top: 5px;
     color:white;
 }
 
