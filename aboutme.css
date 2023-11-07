@@ -34,7 +34,7 @@
    display: inline-block;
    margin: 0 10px;
    position: relative;
-   font-size: 20px;
+   font-size: clamp(.5rem, 4vw, 1.5rem);
 }
 
 .navbar ul li a{
