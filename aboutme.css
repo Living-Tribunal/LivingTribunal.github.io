@@ -6,7 +6,7 @@
 }
 
 .bg {
-    width: 100%;
+    min-width: 100%;
     min-height: 100%;
     background-image: linear-gradient(rgba(110, 96, 110, 0.685),rgba(110, 96, 110, 0.685));
     background-size: cover;
