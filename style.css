@@ -55,7 +55,6 @@ button{
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    background: transparent;
     z-index: 1;
 }
 

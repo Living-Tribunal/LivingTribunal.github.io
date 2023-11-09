@@ -73,21 +73,84 @@ h1{
     text-align: center;
 }
 
+button{
+    width: clamp(250px, 100%, 600px);
+    padding: 3px 0;
+    text-align: center;
+    margin: 20px 2px;
+    background: transparent;
+    font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    border-color: transparent;
+    overflow: hidden;
+    color:transparent;
+}
+
+.button1:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    color:rgba(255, 255, 255);
+    padding: 5px;
+    filter: grayscale(100%);
+}
+
+.button1:hover::before{
+    content: "Gabriel and Laurie";
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    background-color: rgba(54, 54, 54, 0.479);
+    padding: 2px 20px;
+}
+
+.button2:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    color:rgba(255, 255, 255);
+    padding: 5px;
+    filter: grayscale(100%);
+}
+
+.button2:hover::before{
+    content: "Darius and Jaclyn";
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    background-color: rgba(54, 54, 54, 0.479);
+    padding: 2px 20px;
+}
 .photo img {
     width: clamp(250px, 100%, 600px);
     padding: 4px;
 }
 
-img:hover{
-    color:black;
+.button3:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    color:rgba(255, 255, 255);
+    padding: 5px;
     filter: grayscale(100%);
-    transition: .3s;
-    padding: 10px;
 }
 
+.button3:hover::before{
+    content: "Jon and Hope";
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    background-color: rgba(54, 54, 54, 0.479);
+    padding: 2px 20px;
+}
 .photos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
