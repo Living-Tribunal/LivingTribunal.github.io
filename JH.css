@@ -86,25 +86,26 @@ h1{
 }
 
 .container .box{
-    display:inline-block;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .container .box .photos{
-    display: contents;
+    display: flex;
     flex-direction: column;
-    width: clamp(250px, 100%, 300px);   
-
+    width: 32.5%
 }
 
 .container .box .photos img{
-    width: 50%;
+    width: 100%;
     padding-bottom: 15px;
+    align-items: center;
 }
 
 body{
     background-color:rgb(43, 43, 43);
 }
+
 
 
