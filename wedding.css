@@ -73,6 +73,16 @@ h1{
     text-align: center;
 }
 
+.container .heading{
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.container .heading h1{
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+
 button{
     width: clamp(250px, 100%, 600px);   
     padding: 3px 0;
@@ -94,9 +104,7 @@ button{
     padding: 4px;
 }
 
-.button3:hover,
-.button2:hover,
-.button1:hover{
+.button3:hover{
     background-color: rgb(255, 255, 255);
     transition: 0.5s;
     color:rgba(255, 255, 255);
@@ -104,10 +112,8 @@ button{
     filter: grayscale(100%);
 }
 
-.button3:hover::before
-.button2:hover::before,
-.button1:hover::before{
-    content: "Gabriel and Laurie";
+.button3:hover::before{
+    content: "Jon and Hope";
     position:absolute;
     top: 50%;
     left: 50%;
@@ -116,8 +122,8 @@ button{
     font-size: 30px;
     background-color: rgba(54, 54, 54, 0.7);
     padding: 2px 20px;
-}
 
+}
 .photos {
     display: flex;
     flex-wrap: wrap;

@@ -89,3 +89,13 @@ p{
     margin: 40px 20px 0 20px;
 }
 
+.container .heading{
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.container .heading h2{
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+
