@@ -99,7 +99,7 @@ button{
 }
 
 .photo img {
-    width: clamp(250px, 100%, 600px);
+    width: clamp(200px, 100%, 600px);
     padding: 4px;
 }
 

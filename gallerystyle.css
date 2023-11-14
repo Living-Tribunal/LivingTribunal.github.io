@@ -84,17 +84,8 @@ h1{
 }
 
 .photos img {
-    width: clamp(250px, 100%, 700px);
+    width: clamp(200px, 100%, 700px);
     padding: 4px;
-}
-
-#button2:hover,
-#button1:hover{
-    background-color: rgb(255, 255, 255);
-    transition: 0.5s;
-    color:rgba(255, 255, 255);
-    padding: 5px;
-    filter: grayscale(100%);
 }
 
 body{
