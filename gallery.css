@@ -84,7 +84,7 @@ h1{
 }
 
 button{
-    width: clamp(250px, 100%, 600px);   
+    width: clamp(250px, 100%, 550px);   
     padding: 1px 0;
     margin: 1px 2px;
     background: transparent;
@@ -98,9 +98,10 @@ button{
     color:transparent;
 }
 
+.photos img,
 .photo img {
-    width: clamp(350px, 100%, 700px);
-    padding: 1px;
+    width: clamp(250px, 100%, 950px);
+    padding: 3px;
 }
 
 .photo img:hover {
