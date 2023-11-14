@@ -100,7 +100,7 @@ button{
 
 .photo img {
     width: clamp(200px, 100%, 600px);
-    padding: 4px;
+    padding: 1px;
 }
 
 #button2:hover,
