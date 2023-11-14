@@ -6,7 +6,6 @@
 }
 
 .bg {
-    background-image: linear-gradient(rgba(110, 96, 110, 0.685),rgba(110, 96, 110, 0.685));
     min-width: 100%;
     min-height: 100%;
     background-size: cover;
@@ -15,14 +14,6 @@
     z-index: -1;
     padding: 0;
 }
-
-.banner img {
-    display:flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    object-fit: cover;
-  }
 
 .navbar{
     width: 85%;
