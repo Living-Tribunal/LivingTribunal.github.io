@@ -141,3 +141,18 @@ button{
 body{
     background-color:rgb(43, 43, 43);
 }
+
+.photos img {
+    width: clamp(200px, 100%, 700px);
+    padding: 4px;
+}
+
+body{
+    background-color:rgb(43, 43, 43);
+}
+
+.photos img:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    padding: 8px;
+}
