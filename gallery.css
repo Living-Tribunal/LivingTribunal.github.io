@@ -122,7 +122,6 @@ button{
     font-size: 40px;
     background-color: rgba(54, 54, 54, 0.7);
     padding: 2px 20px;
-
 }
 
 #button2:hover::before{
@@ -135,23 +134,17 @@ button{
     font-size: 40px;
     background-color: rgba(54, 54, 54, 0.7);
     padding: 2px 20px;
-
 }
 
 body{
     background-color:rgb(43, 43, 43);
 }
 
-.photos img {
-    width: clamp(200px, 100%, 700px);
-    padding: 4px;
-}
-
 body{
     background-color:rgb(43, 43, 43);
 }
 
-.photos img:hover {
+.photo img:hover {
     background-color: rgb(255, 255, 255);
     transition: 0.5s;
     padding: 8px;
