@@ -113,26 +113,26 @@ button{
 }
 
 #button1:hover::before{
-    content: "Engagements";
+    content: "Jon and Hope";
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
-    font-size: 50px;
+    font-size: 40px;
     background-color: rgba(54, 54, 54, 0.7);
     padding: 2px 20px;
 
 }
 
 #button2:hover::before{
-    content: "Weddings";
+    content: "Dee and Penny";
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
-    font-size: 50px;
+    font-size: 40px;
     background-color: rgba(54, 54, 54, 0.7);
     padding: 2px 20px;
 
