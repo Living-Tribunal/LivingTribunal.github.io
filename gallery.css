@@ -84,7 +84,7 @@ h1{
 }
 
 button{
-    width: clamp(250px, 100%, 600px);   
+    width: clamp(350px, 100%, 600px);   
     padding: 1px 0;
     margin: 1px 2px;
     background: transparent;
