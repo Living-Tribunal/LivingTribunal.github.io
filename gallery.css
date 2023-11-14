@@ -99,9 +99,17 @@ button{
 }
 
 .photo img {
-    width: clamp(200px, 100%, 600px);
+    width: clamp(250px, 100%, 700px);
     padding: 1px;
 }
+
+.photo img:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    padding: 8px;
+}
+
+
 
 #button2:hover,
 #button1:hover{
@@ -138,14 +146,4 @@ button{
 
 body{
     background-color:rgb(43, 43, 43);
-}
-
-body{
-    background-color:rgb(43, 43, 43);
-}
-
-.photo img:hover {
-    background-color: rgb(255, 255, 255);
-    transition: 0.5s;
-    padding: 8px;
 }
