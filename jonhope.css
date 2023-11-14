@@ -86,19 +86,9 @@ h1{
     padding-bottom: 10px;
 }
 
-.container .box{
-    align-items: center;
-    justify-content: space-between;
-}
-
-.container .box .photos{
-    align-items: center;
-}
-
 .container .box .photos img{
     width: clamp(1rem, 80vw, 50rem);
     padding-bottom: 3px;
-    align-items: center;
 }
 
 body{
@@ -121,9 +111,9 @@ body{
 .photos .fourteen:hover,
 .photos .fifteen:hover,
 .photos .sixteen:hover {
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(255, 255, 255);
     transition: 0.5s;
-    padding: 5px;
+    padding: 8px;
 }
 
 

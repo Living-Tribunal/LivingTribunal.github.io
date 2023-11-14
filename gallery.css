@@ -85,9 +85,8 @@ h1{
 
 button{
     width: clamp(250px, 100%, 600px);   
-    padding: 3px 0;
-    text-align: center;
-    margin: 20px 2px;
+    padding: 1px 0;
+    margin: 1px 2px;
     background: transparent;
     font-size: 45px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -104,7 +103,8 @@ button{
     padding: 4px;
 }
 
-.button3:hover{
+#button2:hover,
+#button1:hover{
     background-color: rgb(255, 255, 255);
     transition: 0.5s;
     color:rgba(255, 255, 255);
@@ -112,22 +112,30 @@ button{
     filter: grayscale(100%);
 }
 
-.button3:hover::before{
-    content: "Jon and Hope";
+#button1:hover::before{
+    content: "Engagements";
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
-    font-size: 30px;
+    font-size: 50px;
     background-color: rgba(54, 54, 54, 0.7);
     padding: 2px 20px;
 
 }
-.photos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+#button2:hover::before{
+    content: "Weddings";
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-size: 50px;
+    background-color: rgba(54, 54, 54, 0.7);
+    padding: 2px 20px;
+
 }
 
 body{
