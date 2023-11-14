@@ -33,6 +33,12 @@ body{
     cursor: pointer;
 }
 
+h1{
+    margin-top: 5px;
+    color:white;
+    font-size: clamp(2rem, 10vw, 8rem);
+}
+
 .navbar ul li{
     list-style: none;
     display: inline-block;
@@ -59,16 +65,6 @@ body{
     transition: 0.5s
 }
 
-.navbar ul li:hover::after{
-    width: 100%;
-}
-
-h1{
-    margin-top: 5px;
-    color:white;
-    font-size: clamp(2rem, 10vw, 8rem);
-}
-
 .container{
     display: flex;
     flex-direction: column;
@@ -86,23 +82,11 @@ h1{
     border-bottom: 3px solid rgb(255, 255, 255);
 }
 
-button{
-    width: clamp(250px, 100%, 550px);   
-    padding: 1px 0;
-    margin: 1px 2px;
-    background: transparent;
-    font-size: 45px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    cursor: pointer;
-    position: relative;
-    z-index: 1;
-    border-color: transparent;
-    overflow: hidden;
-    color:transparent;
+.navbar ul li:hover::after{
+    width: 100%;
 }
 
-.photos img,
-.photo img {
+.photos img {
     width: clamp(250px, 100%, 900px);
     padding: 3px;
 }
@@ -113,36 +97,4 @@ button{
     padding: 8px;
 }
 
-#button2:hover,
-#button1:hover{
-    background-color: rgb(255, 255, 255);
-    transition: 0.5s;
-    color:rgba(255, 255, 255);
-    padding: 5px;
-    filter: grayscale(100%);
-}
-
-#button1:hover::before{
-    content: "Jon and Hope";
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-    font-size: 40px;
-    background-color: rgba(54, 54, 54, 0.7);
-    padding: 2px 20px;
-}
-
-#button2:hover::before{
-    content: "Dee and Penny";
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-    font-size: 40px;
-    background-color: rgba(54, 54, 54, 0.7);
-    padding: 2px 20px;
-}
 
