@@ -96,22 +96,7 @@ body{
     background-color:rgb(43, 43, 43);
 }
 
-.photos .one:hover,
-.photos .two:hover,
-.photos .three:hover,
-.photos .four:hover,
-.photos .five:hover,
-.photos .six:hover,
-.photos .seven:hover,
-.photos .eight:hover,
-.photos .nine:hover,
-.photos .ten:hover,
-.photos .eleven:hover,
-.photos .twelve:hover,
-.photos .thirteen:hover,
-.photos .fourteen:hover,
-.photos .fifteen:hover,
-.photos .sixteen:hover {
+.photos img:hover {
     background-color: rgb(255, 255, 255);
     transition: 0.5s;
     padding: 8px;
