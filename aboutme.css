@@ -5,15 +5,19 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.bg {
-    background-image: linear-gradient(rgba(110, 96, 110, 0.685),rgba(110, 96, 110, 0.685));
+body{
+    background-color: rgb(48, 48, 48);
+}
+
+.bg{
     min-width: 100%;
     min-height: 100%;
-    background-size: cover;
-    background-position:center;
+    background-size:cover;
+    position: relative;
     position: fixed;
     z-index: -1;
     padding: 0;
+    overflow:hidden;
 }
 
 .banner img {
@@ -34,7 +38,7 @@
 }
 
 .logo{
-    width: clamp(1rem, 60vw, 20rem);
+    width: clamp(1rem, 60dvh, 20rem);
     cursor: pointer;
 }
 
@@ -93,8 +97,82 @@ p{
     padding-bottom: 20px;
 }
 
+.container .contact h2,
 .container .heading h2{
     border-bottom: 3px solid rgb(255, 255, 255);
-    padding-bottom: 10px;
+    padding-bottom: 3px;
 }
+
+form {
+    padding-top: 12px;
+    display: grid;
+    grid-template-columns: 5em 1fr; 
+    gap: 2em 150px;
+    background-color: transparent;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+textarea,
+input{
+    margin-bottom: 1em;
+    width: 20em;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.363);
+    color: white;
+    font-weight: 500;
+}
+
+label{
+    font-size:25px;
+    background-color: transparent;
+    width: 250%;
+    border-color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 22%;
+    white-space: nowrap;
+}
+
+#comment {
+    height: 40%;/* Adjust the padding-bottom to add space between comment box and submit button */
+}
+
+#mysubmit{
+    width: 250px;
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    grid-column: 2;
+}
+
+label:hover,
+#mysubmit:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    color:rgba(74, 74, 74, 0.663);
+}
+
+#comment:hover + #myComment,
+#date:hover + #myDate,
+#phone:hover + #myPhone,
+#email:hover + #myEmail,
+#lName:hover + #myLName,
+#fName:hover + #myFName{
+    transition: 0.7s;
+    background-color: rgb(250, 250, 250);
+    color:rgba(74, 74, 74);
+}
+
+
+
 
