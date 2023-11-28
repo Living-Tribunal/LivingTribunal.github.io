@@ -1,47 +1,47 @@
-<html>
-    <head>
-        <title>About Me</title>
-        <link rel="stylesheet" href="aboutme.css">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-            <div class = "navbar">
-                <img src="../images/logo.png" class = "logo">
-                <ul>
-                    <li><a href = "index.html">Home</a></li>
-                    <li><a href = "gallerymenu.html">Galleries</a></li>
-                    <li><a href = "contact.html">Contact</a></li>
-                    <li><a href = "aboutme.html">About Me</a></li>
-                </ul>
-            </div>
-            <div class = "container">
-                <div class = "contact">
-                    <h2>Contact Me</h2>
-                    <form name="contactMe" method="post" action="https://webdevbasics.net/scripts/pacific.php">
-                        <label id="fName" for="myFName">First Name:</label>
-                        <input type="text" id="myFName" name="First Name" required>
-                        
-                        <label id="lName" for="myLName">Last Name:</label>
-                        <input type="text" id="myLName" name="Last Name" required>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="aboutme.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="../images/logo.png" class="logo" alt="Logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallerymenu.html">Galleries</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href = "#">Blog</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <form name="contactMe" method="post" action="https://webdevbasics.net/scripts/pacific.php">
+                <label id="fName" for="myFName">First Name:</label>
+                <input type="text" id="myFName" name="First Name" required>
+                
+                <label id="lName" for="myLName">Last Name:</label>
+                <input type="text" id="myLName" name="Last Name" required>
 
-                        <label id="email" for="myEmail">Email:</label>
-                        <input type="email" id="myEmail" name="Email" required>
-                        
-                        <label id="phone" for="myPhone">Phone:</label>
-                        <input type="text" id="myPhone" name="Phone" required>
-                        
-                        <label id="date" for="myDate">Wedding Date:</label>
-                        <input type="date" id="myDate" name="Arrival Date" required>
-                        
-                        <label for="myComment" id="comment">Comments:</label>
-                        <textarea name="Comments" id="myComment" rows="4" cols="20"></textarea>
-                        
-                        <button type="submit" value="Submit" id="mysubmit">Submit</button>
-                    </form>
-                </div>   
-            </div>
-        </div>
-    </body>
+                <label id="email" for="myEmail">Email:</label>
+                <input type="email" id="myEmail" name="Email" required>
+                
+                <label id="phone" for="myPhone">Phone:</label>
+                <input type="text" id="myPhone" name="Phone" required>
+                
+                <label id="date" for="myDate">Wedding Date:</label>
+                <input type="date" id="myDate" name="Arrival Date" required>
+                
+                <label for="myComment" id="comment">Comments:</label>
+                <textarea name="Comments" id="myComment" rows="4" cols="20"></textarea>
+                
+                <button type="submit" value="Submit" id="mysubmit">Submit</button>
+            </form>
+        </div>   
+    </div>
+</body>
 </html>

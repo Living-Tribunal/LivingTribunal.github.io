@@ -164,23 +164,11 @@ label:hover{
     color:rgba(74, 74, 74, 0.663);
 }
 
-#comment:hover + #myComment,
-#date:hover + #myDate,
-#phone:hover + #myPhone,
-#email:hover + #myEmail,
-#lName:hover + #myLName,
-#fName:hover + #myFName{
-    transition: 0.7s;
-    background-color: rgb(250, 250, 250);
-    color:rgba(74, 74, 74);
-}
-
 #mysubmit:hover{
     border: 2px solid rgba(74, 74, 74, 0.663);
     background-color:gold;
     transition: 0.5s;
     color:rgba(255, 255, 255, 0.986);
-    font-weight: bolder;
 }
 
 
