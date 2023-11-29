@@ -65,6 +65,23 @@ button:hover{
     color:rgba(74, 74, 74, 0.663);
 }
 
+P{
+    margin-top: 20px;
+    font-size: 35px;
+
+}
+
+footer{
+    font-size: .4em;
+    font-style: italic;
+    text-align:center;
+    padding: 5em;
+    background-color:transparent;
+}
+
+a{
+    color:white;
+}
 
 /* @media (max-width: 600px) {
     #mobile{
