@@ -15,6 +15,7 @@
                 <li><a href = "gallerymenu.html">Galleries</a></li>
                 <li><a href = "contact.html">Contact</a></li>
                 <li><a href = "aboutme.html">About Me</a></li>
+                <li><a href = "#">Information</a></li>
             </ul>
         </div>
         <div class="container">
@@ -43,6 +44,19 @@
                     <img src="../images/jonhope/18.jpg" alt="Jon and Hope engagement" class="eightteen">
                 </div>
             </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to Top">Back to Top</button>
         </div>
+        <footer>
+            Copyright &copy; 2023 Cody the Photographer<br>
+            <a href="mailto:ccjdalton15@gmail.com">cjdalton15@gmail.com</a>
+        </footer>
+        <script>
+            let myButton = document.getElementById("myBtn");
+            
+            function topFunction(){
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
     </body>
 </html>

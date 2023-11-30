@@ -97,4 +97,38 @@ h1{
     padding: 8px;
 }
 
+footer{
+    font-size: 1em;
+    font-style: italic;
+    text-align:center;
+    padding: 5em;
+    background-color:transparent;
+    color: white;
+}
 
+footer a{
+    color:white;
+}
+
+#myBtn{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#myBtn:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    color:rgba(74, 74, 74, 0.663);
+}

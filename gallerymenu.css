@@ -122,26 +122,37 @@ button{
 }
 
 #button1:hover::before{
-    content: "Jon and Hope";
+    content: "Jon & Hope -Engagement-";
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    white-space: nowrap;
     font-size: 40px;
     background-color: rgba(54, 54, 54, 0.7);
     padding: 2px 20px;
 }
+
 
 #button2:hover::before{
-    content: "Dee and Penny";
+    content: "Dee & Penny -Engagement-";
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    white-space: nowrap;
     font-size: 40px;
     background-color: rgba(54, 54, 54, 0.7);
     padding: 2px 20px;
 }
 
+footer{
+    font-size: 1em;
+    font-style: italic;
+    text-align:center;
+    padding: 5em;
+    background-color:transparent;
+    color: white;
+}
+
+footer a{
+    color:white;
+}
