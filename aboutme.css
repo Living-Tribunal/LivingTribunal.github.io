@@ -100,12 +100,15 @@ p{
 
 
 form{
-    display: grid;
-    background-color: rgba(255, 255, 255, 0.123);
-    border: 2px solid white;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(105, 105, 105, 0.493);
+    width: 80%;
+    margin:auto;
+    border: 2px white solid;
+    padding-left: 50px;
+    padding-right: 50px;
+
 
 }
 textarea,
@@ -125,7 +128,7 @@ input{
 }
 
 #mysubmit{
-    padding: 10px 0;
+    padding: 2% 0;
     text-align: center;
     border: 2px solid rgb(255, 255, 255);
     background: white;
@@ -136,10 +139,9 @@ input{
     position: relative;
     overflow: hidden;
     z-index: 1;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
+    margin-bottom: 3vh;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 label{
@@ -150,7 +152,7 @@ label{
     padding-top: 5px;
     padding-bottom: 5px;
     color:rgba(74, 74, 74, 0.663);
-    font-size: 30px;
+    font-size: clamp(1px, 5vw, 3rem);
     white-space: nowrap;
     color: white;
 }
