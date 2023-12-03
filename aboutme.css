@@ -102,8 +102,8 @@ p{
 form{
     display: flex;
     flex-direction: column;
-    background-color: rgba(105, 105, 105, 0.493);
-    width: 80%;
+    background-color: rgba(105, 105, 105, 0.281);
+    width: 100%;
     margin:auto;
     border: 2px white solid;
     padding-left: 50px;
@@ -128,20 +128,22 @@ input{
 }
 
 #mysubmit{
-    padding: 2% 0;
+    width:130px;
+    padding: 15px 0;
     text-align: center;
+    margin: 20px 10px;
     border: 2px solid rgb(255, 255, 255);
-    background: white;
+    background: transparent;
     font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:rgba(74, 74, 74, 0.663);
+    color:rgb(255, 255, 255);
     cursor: pointer;
     position: relative;
     overflow: hidden;
     z-index: 1;
-    margin-bottom: 3vh;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 label{
