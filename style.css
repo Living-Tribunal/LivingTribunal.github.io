@@ -75,22 +75,3 @@ P{
 footer a{
     color:white;
 }
-
-/* @media (max-width: 600px) {
-    #mobile{
-        display: inline;
-    }
-    #desktop{
-        display:none;
-    }
-}
-
-@media (min-width: 600px) {
-    #mobile{
-        display: none;
-    }
-    #desktop{
-        display:inline;
-    }
-}
- */
