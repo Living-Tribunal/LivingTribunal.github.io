@@ -17,7 +17,16 @@ body{
     position: fixed;
     z-index: -1;
     padding: 0;
+    filter: opacity(50%);
 }
+
+.banner img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: cover;
+  }
 
 .navbar{
     width: 85%;
@@ -110,7 +119,7 @@ p{
 
 #word{
     font-size: clamp(.5em, 30px, 8rem);
-    color: rgba(255, 255, 255, 0.808);
+    color: rgba(255, 255, 255, 0.863);
     padding-top: 0px;
 }
 
@@ -148,13 +157,14 @@ footer a{
 }
 
 @media screen and (min-width: 900px){
+
     #button2:hover,
     #button1:hover{
-        background-color: transparent;
-        transition: 0.5s;
-        color:rgba(255, 255, 255);
-    }
-
+    transition: 0.5s;
+    color:rgba(255, 255, 255);
+    padding: 2px;
+}
+    
     #button1:hover::before{
         content: "Jon & Hope -Engagement-";
         position:absolute;
@@ -163,6 +173,7 @@ footer a{
         transform: translate(-50%, -50%);
         font-size: 40px;
         background-color: rgba(54, 54, 54, 0.7);
+        color:white;
     }
 
     #button2:hover::before{
@@ -172,7 +183,8 @@ footer a{
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 40px;
-        background-color: rgba(54, 54, 54, 0.7);
+        background-color: rgba(54, 54, 54, 0.5);
+        color:white;
     }
 
     .price li{
@@ -182,7 +194,7 @@ footer a{
         font-size: clamp(2rem, 2rem, 8rem);
         color: white;
         text-align:center;
-        background-color: rgba(211, 211, 211, 0.192);
+        background-color: rgba(54, 54, 54, 0.5);
         line-height: 1.6;
         border: 2px solid rgb(255, 255, 255);
     }
@@ -198,12 +210,9 @@ footer a{
         transform: translate(-50%, -50%);
         font-size: 40px;
         background-color: rgba(54, 54, 54, 0.7);
+        color:white;
     }
 
-    #button2,
-    #button1{
-        color:rgb(255, 255, 255);
-    }
 
     #button2::before{
         content: "Dee & Penny -Engagement-";
@@ -213,6 +222,7 @@ footer a{
         transform: translate(-50%, -50%);
         font-size: 40px;
         background-color: rgba(54, 54, 54, 0.7);
+        color:white;
     }
     .price li{
         margin:auto;
