@@ -80,7 +80,7 @@ h1{
 }
 
 h2{
-    background-color: brown;
+    background-color: transparent;
     font-size: clamp(2rem, 3vw, 8rem);
     color: white;
     width: 50%;
