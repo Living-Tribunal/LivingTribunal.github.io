@@ -22,7 +22,7 @@ body{
 }
 
 .banner img {
-    display:flex;
+    display:block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -74,17 +74,24 @@ body{
 }
 
 h2{
-    margin-top: 5px;
     color:white;
     font-size: clamp(3rem, 10vw, 8rem);
-    white-space: nowrap;
+    display: inline;
+}
+
+#intro{
+    color:white;
+    font-size: clamp(3rem, 10vw, 8rem);
+    display: inline;
 }
 
 p{
     color:rgb(255, 255, 255);
-    font-size: clamp(2rem, 1vw, 8rem);
-    display:contents;
-
+    font-size: 30px;
+    display:block;
+    background-color: rgba(61, 61, 61, 0.315);
+    border: 5px solid rgba(255, 255, 255, 0.596);
+    
 }
 
 .container{
@@ -110,8 +117,6 @@ form{
     border: 2px white solid;
     padding-left: 50px;
     padding-right: 50px;
-
-
 }
 textarea,
 input{
@@ -127,6 +132,18 @@ input{
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+label{
+    float: left;
+    width: auto;
+    background-color: transparent;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:rgba(74, 74, 74, 0.663);
+    font-size: clamp(1px, 5vw, 3rem);
+    white-space: nowrap;
+    color: white;
 }
 
 #mysubmit{
@@ -148,18 +165,7 @@ input{
     
 }
 
-label{
-    display: block;
-    width: auto;
-    background-color: transparent;
-    border: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color:rgba(74, 74, 74, 0.663);
-    font-size: clamp(1px, 5vw, 3rem);
-    white-space: nowrap;
-    color: white;
-}
+
 
 #mysubmit:hover{
     border: 2px solid rgba(74, 74, 74, 0.663);
@@ -179,5 +185,9 @@ footer{
 
 footer a{
     color:white;
+}
+
+input[value]{
+    color: rgba(255, 255, 255, 0.856);
 }
 
