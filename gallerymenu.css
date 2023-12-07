@@ -150,10 +150,9 @@ footer a{
 @media screen and (min-width: 900px){
     #button2:hover,
     #button1:hover{
-        background-color: rgb(255, 255, 255);
+        background-color: transparent;
         transition: 0.5s;
         color:rgba(255, 255, 255);
-        filter: grayscale(100%);
     }
 
     #button1:hover::before{
@@ -203,8 +202,7 @@ footer a{
 
     #button2,
     #button1{
-        background-color: rgb(255, 255, 255);
-        color:rgba(255, 255, 255);
+        color:rgb(255, 255, 255);
     }
 
     #button2::before{

@@ -90,8 +90,11 @@ p{
     font-size: 30px;
     display:block;
     background-color: rgba(61, 61, 61, 0.315);
-    border: 5px solid rgba(255, 255, 255, 0.596);
-    
+    border: 5px solid rgba(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .container{
@@ -107,17 +110,6 @@ p{
     padding-bottom: 10px;
 }
 
-
-form{
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(105, 105, 105, 0.281);
-    width: 80%;
-    margin:auto;
-    border: 2px white solid;
-    padding-left: 50px;
-    padding-right: 50px;
-}
 textarea,
 input{
     margin-bottom: 1em;
@@ -165,8 +157,6 @@ label{
     
 }
 
-
-
 #mysubmit:hover{
     border: 2px solid rgba(74, 74, 74, 0.663);
     background-color:gold;
@@ -189,5 +179,37 @@ footer a{
 
 input[value]{
     color: rgba(255, 255, 255, 0.856);
+}
+
+@media screen and (min-width: 900px){
+
+    form{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(105, 105, 105, 0.281);
+        width: 50%;
+        margin:auto;
+        border: 2px white solid;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px
+    }
+    }
+
+@media screen and (max-width: 900px){
+
+    form{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(105, 105, 105, 0.281);
+        width: 100%;
+        margin:auto;
+        border: 2px white solid;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
 
