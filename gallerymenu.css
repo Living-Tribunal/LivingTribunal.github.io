@@ -164,6 +164,7 @@ footer a{
     transition: 0.5s;
     color:rgba(255, 255, 255);
     padding: 2px;
+    transition: .5s;
 }
     
     #button1:hover::before{
@@ -175,6 +176,7 @@ footer a{
         font-size: 40px;
         background-color: rgba(54, 54, 54, 0.7);
         color:white;
+        transition: 2s;
     }
 
     #button2:hover::before{
@@ -186,6 +188,7 @@ footer a{
         font-size: 40px;
         background-color: rgba(54, 54, 54, 0.5);
         color:white;
+        transition: 2s;
     }
 
     .wedding li{
