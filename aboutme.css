@@ -124,6 +124,7 @@ input{
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: .5rem;
 }
 label{
     float: left;
@@ -180,6 +181,14 @@ footer a{
 input[value]{
     color: rgba(255, 255, 255, 0.856);
 }
+
+::placeholder{
+    color: white;
+    font-size: 20px;
+    opacity: .75;
+    font-style: italic;
+}
+
 
 @media screen and (min-width: 900px){
 
