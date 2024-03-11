@@ -207,6 +207,28 @@ input[value]{
     color:rgba(255, 255, 255, 0.986);
 }
 
+#dqlinky{
+    display: grid;
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    align-content: center;
+    text-decoration: none;
+    margin: auto;
+    padding: 10px;
+    max-width: 200px;
+}
+
+#dqlinky:hover{
+    border: 3px solid rgba(255, 255, 255, 0.663);
+    background-color:gold;
+    transition: 0.5s;
+    color:rgba(255, 255, 255, 0.986);
+}
+
 
 @media screen and (min-width: 900px){
 
