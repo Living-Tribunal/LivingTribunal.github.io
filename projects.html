@@ -1,89 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects - Cody the Photographer</title>
-    <link rel="stylesheet" href="projects.css">
-    <link rel="icon" type="image/x-icon" href="images/favgray.png">
-</head>
-    <body id="body">
-        <div class="navbar">
-            <img src="images/logo.png" class="logo" alt="Logo">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallerymenu.html">Galleries</a></li>
-                <li><a href="packages.html">Packages</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="icon" type="image/x-icon" href="images/favgray.png" />
+  </head>
+  <body id="body">
+    <div class="navbar">
+      <img src="images/logo.png" class="logo" alt="Logo" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallerymenu.html">Galleries</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </div>
+    <h1>Class Projects</h1>
+    <div>
+      <h2 id="dqapp">DestinyQuest Companion App - Python</h2>
+      <p>
+        This was my final for Intro to Programming. It was written in Python and
+        tkinter.
+      </p>
+      <a id="dqlinky" href="https://github.com/Living-Tribunal/DQcompanionapp"
+        >GitHub</a
+      >
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/SC6Ju9-O-GA?si=ffXyD3T35w0wysdy"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div>
+      <h2 id="dqapp">DestinyQuest Companion App - Javascript/PHP/SQL</h2>
+      <p>
+        This was my final for Web App Development. It was written in JS/PHP and
+        accesses a database with SQL.<br />
+        This program allows the user to keep track of their character as they
+        read through<br />
+        the Destiny Quest adventure book.
+      </p>
+      <a id="dqlinky" href="https://github.com/Living-Tribunal/DQApp">GitHub</a>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/54ambA2RisU?si=YNxVGVg36O_uweCF"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <h2 id="h1">Color Setter</h2>
+    <p>
+      This little program is just fun. It was my first web app so I'm proud to
+      show it off.<br />
+      Ask me next year though, I might be embarassed by it.
+    </p>
+    <a id="dqlinky" href="https://github.com/Living-Tribunal/colorsetter"
+      >GitHub</a
+    >
+    <form>
+      <div class="container">
+        <div class="red">
+          <label id="red" for="redInput">Red:</label>
+          <input
+            type="number"
+            id="redInput"
+            min="0"
+            max="255"
+            value="0"
+            oninput="updateColor();redTextChange()"
+          />
         </div>
-        <h1>Class Projects</h1>
-        <div>
-          <h2 id="dqapp">DestinyQuest Companion App - Python</h2>
-          <p>This was my final for Intro to Programming. It was written in Python and tkinter.</p>
-          <a id="dqlinky" href="https://github.com/Living-Tribunal/DQcompanionapp">GitHub</a>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/SC6Ju9-O-GA?si=ffXyD3T35w0wysdy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <div class="green">
+          <label id="green" for="greenInput">Green:</label>
+          <input
+            type="number"
+            id="greenInput"
+            min="0"
+            max="255"
+            value="0"
+            oninput="updateColor();greenTextChange()"
+          />
         </div>
-        <div>
-          <h2 id="dqapp">DestinyQuest Companion App - Javascript/PHP/SQL</h2>
-          <p>This was my final for Web App Development. It was written in JS/PHP and accesses a database with SQL.<br>
-          This program allows the user to keep track of their character as they read through<br>
-          the Destiny Quest adventure book. </p>
-          <a id="dqlinky" href="https://github.com/Living-Tribunal/DQApp">GitHub</a>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/54ambA2RisU?si=YNxVGVg36O_uweCF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        </div>
-        <h2 id="h1">Color Setter</h2>
-        <p>This little program is just fun. It was my first web app so I'm proud to show it off.<br>
-        Ask me next year though, I might be embarassed by it.</p>
-        <a id="dqlinky" href="https://github.com/Living-Tribunal/colorsetter">GitHub</a>
-        <form>
-        <div class="container">
-          <div class="red">
-            <label id="red" for="redInput">Red:</label>
-            <input
-              type="number"
-              id="redInput"
-              min="0"
-              max="255"
-              value="0"
-              oninput="updateColor();redTextChange()"
-            />
-          </div>
-    
-          <div class="green">
-            <label id="green" for="greenInput">Green:</label>
-            <input
-              type="number"
-              id="greenInput"
-              min="0"
-              max="255"
-              value="0"
-              oninput="updateColor();greenTextChange()"
-            />
-          </div>
-    
-          <div class="blue">
-            <label id="blue" for="blueInput">Blue:</label>
-            <input
-              type="number"
-              id="blueInput"
-              min="0"
-              max="255"
-              value="0"
-              oninput="updateColor();blueTextChange()"
-            />
-          </div>
+
+        <div class="blue">
+          <label id="blue" for="blueInput">Blue:</label>
+          <input
+            type="number"
+            id="blueInput"
+            min="0"
+            max="255"
+            value="0"
+            oninput="updateColor();blueTextChange()"
+          />
         </div>
-        <div id="redbox"></div>
-        <div id="greenbox"></div>
-        <div id="bluebox"></div>
-        <div id="colorDiv"></div>
-        <input type="reset" value="Reset" id="reset" onclick="resetColorDiv()">
+      </div>
+      <div id="redbox"></div>
+      <div id="greenbox"></div>
+      <div id="bluebox"></div>
+      <div id="colorDiv"></div>
+      <input type="reset" value="Reset" id="reset" onclick="resetColorDiv()" />
     </form>
-        <script src="../Javascript/colorsetter.js"></script>
+    <script src="../Javascript/colorsetter.js"></script>
     <footer>
-        Copyright &copy; 2024 Cody the Photographer
-        <a href="mailto:ccjdalton15@gmail.com">cjdalton15@gmail.com</a>
+      Copyright &copy; 2024 Cody the Photographer
+      <a href="mailto:ccjdalton15@gmail.com">cjdalton15@gmail.com</a>
     </footer>
-</body>
+  </body>
 </html>
