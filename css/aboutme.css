@@ -1,8 +1,19 @@
+@font-face {
+    font-family: californian ;
+    src: url(../assets/fonts/californian-fb.ttf);
+}
+
+:root {
+    --background: rgb(43, 43, 43);
+    --background-transparent: rgba(43, 43, 43, .5);
+    --white: rgb(251,247,245);
+  }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:californian;
 }
 
 body{
@@ -29,18 +40,22 @@ body{
     object-fit: cover;
   }
 
-.navbar{
-    width: 85%;
+  .navbar{
+    max-width: 100%;
     margin: auto;
     padding: 25px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    position: relative;
+    z-index: 100;
+    background-color: var(--white);
 }
 
 .logo{
-    width: clamp(1rem, 60vw, 20rem);
+    width: 5%;
     cursor: pointer;
+    filter: invert(75%);
 }
 
 .navbar ul li{
@@ -54,15 +69,17 @@ body{
 
 .navbar ul li a{
     text-decoration: none;
-    color:rgb(255, 255, 255);
+    color:var(--background);
     text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .navbar ul li::after{
     content:"";
     height: 2px;
     width: 0%;
-    background: rgb(255, 255, 255);
+    background: var(--background);
     position: absolute;
     left: 0px;
     bottom: -2px;
@@ -74,23 +91,23 @@ body{
 }
 
 h2{
-    color:white;
+    color:var(--white);
     font-size: clamp(3rem, 10vw, 8rem);
     display: inline;
 }
 
 #intro{
-    color:white;
+    color:var(--white);
     font-size: clamp(3rem, 10vw, 8rem);
     display: inline;
 }
 
 p{
-    color:rgb(255, 255, 255);
+    color:var(--white);
     font-size: 30px;
     display:block;
     background-color: rgba(211, 211, 211, 0.192);
-    border: 5px solid rgba(255, 255, 255);
+    border: 5px solid var(--white);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -115,9 +132,9 @@ input{
     margin-bottom: 1em;
     font-size: 30px;
     background-color: transparent;
-    color: white;
+    color: var(--white);
     font-weight: 500;
-    border: 2px solid white;
+    border: 2px solid var(--white);
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.151);
     width: 100%;
@@ -133,10 +150,10 @@ label{
     border: none;
     padding-top: 5px;
     padding-bottom: 5px;
-    color:rgba(74, 74, 74, 0.663);
+    color:var(--background-transparent);
     font-size: clamp(1px, 5vw, 3rem);
     white-space: nowrap;
-    color: white;
+    color: var(--white);
 }
 
 #mysubmit{
@@ -144,11 +161,11 @@ label{
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
-    border: 2px solid rgb(255, 255, 255);
-    background-color:rgba(255, 255, 255, 0.37);
+    border: 2px solid var(--white);
+    background-color:var(--background-transparent);
     font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:rgb(255, 255, 255);
+    color:var(--white);
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -159,10 +176,10 @@ label{
 }
 
 #mysubmit:hover{
-    border: 2px solid rgba(255, 255, 255, 0.663);
+    border: 2px solid var(--background);
     background-color:gold;
     transition: 0.5s;
-    color:rgba(255, 255, 255, 0.986);
+    color:var(--background);
 }
 
 footer{
@@ -171,19 +188,19 @@ footer{
     text-align:center;
     padding: 5em;
     background-color:transparent;
-    color: white;
+    color: var(--white);
 }
 
 footer a{
-    color:white;
+    color:var(--white);
 }
 
 input[value]{
-    color: rgba(255, 255, 255, 0.856);
+    color: var(--white);
 }
 
 ::placeholder{
-    color: white;
+    color: var(--white);
     font-size: 20px;
     opacity: .75;
     font-style: italic;
@@ -195,10 +212,10 @@ input[value]{
     form{
         display: flex;
         flex-direction: column;
-        background-color: rgba(105, 105, 105, 0.568);
+        background-color: var(--background-transparent);
         width: 50%;
         margin:auto;
-        border: 2px white solid;
+        border: 2px var(--white) solid;
         padding-top: 25px;
         padding-bottom: 25px;
         padding-left: 25px;
@@ -211,10 +228,10 @@ input[value]{
     form{
         display: flex;
         flex-direction: column;
-        background-color: rgba(105, 105, 105, 0.568);
+        background-color: var(--background-transparent);
         width: 100%;
         margin:auto;
-        border: 2px white solid;
+        border: 2px var(--white) solid;
         padding-top: 25px;
         padding-bottom: 25px;
         padding-left: 25px;
