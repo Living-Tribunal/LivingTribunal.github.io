@@ -219,7 +219,10 @@ body{
         font-size: 60px;
     }
     .arrows{
-        left: 65%;
+        left: 60%;
+    }
+    .logo{
+        display: none;
     }
 }
 
