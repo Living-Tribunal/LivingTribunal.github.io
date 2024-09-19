@@ -23,7 +23,6 @@ body{
 
 .bg{
     min-width: 100%;
-    min-height: 100vh;
     background-size: cover;
     background-position:center;
     position: fixed;
@@ -46,14 +45,14 @@ body{
     padding: 25px 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
     z-index: 100;
     background-color: var(--white);
 }
 
 .logo{
-    width: clamp(10rem, 2vw, 5rem);
+    width: clamp(1rem, 80px, 20rem);
     cursor: pointer;
     filter: invert(75%);
 }
@@ -78,7 +77,7 @@ body{
     content:"";
     height: 2px;
     width: 0%;
-    background: var(--white);
+    background: var(--background);
     position: absolute;
     left: 0px;
     bottom: -2px;
@@ -225,7 +224,7 @@ footer a{
     
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 678px){
     #button1::before{
         content: "Jon & Hope Engagement";
         position:absolute;
@@ -258,5 +257,9 @@ footer a{
         line-height: 1.6;
         border: 2px solid var(--white);
     }
+    .navbar ul li{
+        font-size: clamp(.5rem, 2vw, 1.5rem);
+     }
+
 }
 

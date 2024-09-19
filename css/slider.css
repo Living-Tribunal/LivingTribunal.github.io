@@ -29,16 +29,17 @@ body{
     padding: 25px 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
     z-index: 100;
     background-color: var(--white);
 }
 
 .logo{
-    width: 5%;
+    width: clamp(1rem, 80px, 20rem);
     cursor: pointer;
     filter: invert(75%);
+    padding: 2px;
 }
 
 .navbar ul li{
@@ -46,7 +47,7 @@ body{
     display: inline-block;
     margin: 0 5px;
     position: relative;
-    font-size: clamp(.5rem, 4vw, 1.5rem);
+    font-size: clamp(1rem, 4vw, 1.5rem);
  }
 
 
@@ -62,7 +63,7 @@ body{
     content:"";
     height: 2px;
     width: 0%;
-    background: var(--white);
+    background: var(--background);
     position: absolute;
     left: 0px;
     bottom: -2px;
@@ -74,7 +75,7 @@ body{
 }
 
 .slider{
-    height: 101vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -153,7 +154,7 @@ body{
 
 .arrows{
     position: absolute;
-    top: 75%;
+    top: 30%;
     right: 50px;
     z-index: 100;
 }
@@ -175,29 +176,34 @@ body{
     color: var(--background);
 }
 
-.thumbnail{
+/* .thumbnail{
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
     z-index: 11;
     display: flex;
-    gap: 5px;
+    gap: 10px;
     width: 100%;
-    height: 150px;
+    height: 250px;
+    padding: 0 50px;
     box-sizing: border-box;
     overflow: auto;
     justify-content: center;
-    align-items: center;
-    background-color: var(--background-transparent);
 }
-
 .thumbnail::-webkit-scrollbar{
     width: 0;
 }
 .thumbnail .item{
     width: 150px;
-    height: 120px;
+    height: 220px;
+    filter: brightness(.5);
     transition: .5s;
     flex-shrink: 0;
+}
+.thumbnail .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 .thumbnail .item img{
     width: 100%;
@@ -211,7 +217,7 @@ body{
 .thumbnail .item .content{
     position: absolute;
     inset: auto 10px 10px 10px;
-}
+} */
 @media screen and (max-width: 678px) {
     .thumbnail{
         justify-content: start;
@@ -220,12 +226,14 @@ body{
         font-size: 60px;
     }
     .arrows{
-        top: 55%;
-        left: 60%;
+        position: absolute;
+    top: 30%;
+    right: 50px;
     }
-    .logo{
-        display:none;
-    }
+    .navbar ul li{
+        font-size: clamp(.5rem, 2vw, 1.5rem);
+     }
+
 
 }
 
