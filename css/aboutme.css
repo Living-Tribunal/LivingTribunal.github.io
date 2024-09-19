@@ -22,6 +22,7 @@ body{
 
 .bg{
     min-width: 100%;
+    min-height: 100vh;
     background-size:cover;
     position: relative;
     position: fixed;
@@ -238,7 +239,7 @@ input[value]{
         padding-right: 25px;
     }
     .navbar ul li{
-        font-size: clamp(.5rem, 2vw, 1.5rem);
+        font-size: clamp(.5rem, 2.5vw, 1.5rem);
      }
     }
 
