@@ -45,6 +45,7 @@ body{
     width: clamp(1rem, 80px, 20rem);
     cursor: pointer;
     filter: invert(75%);
+    padding: 2px;
 }
 
 h1{

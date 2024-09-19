@@ -17,7 +17,7 @@
 }
 
 body{
-    background-color:rgb(43, 43, 43);
+    background-color:var(--background);
 }
 
 .bg{
@@ -55,6 +55,7 @@ body{
     width: clamp(1rem, 80px, 20rem);
     cursor: pointer;
     filter: invert(75%);
+    padding: 2px;
 }
 
 .navbar ul li{
