@@ -107,8 +107,7 @@ p{
     color:var(--white);
     font-size: 30px;
     display:block;
-    background-color: rgba(211, 211, 211, 0.192);
-    border: 5px solid var(--white);
+    columns: 500px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
