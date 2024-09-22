@@ -120,9 +120,8 @@ p{
 
 .container{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-self: center;
     text-align: center;
 }
 
@@ -133,6 +132,7 @@ p{
 
 .heading h1{
     border-bottom: 3px solid var(--white);
+    text-align: center;
 }
 
 #word{
@@ -157,8 +157,14 @@ button{
 }
 
 .photo img {
-    width: clamp(250px, 100%, 900px);
+    width: 100%;
+    height: 100%;
     padding: 3px;
+}
+
+.photo{
+    columns: 500px;
+
 }
 
 footer{
@@ -176,18 +182,7 @@ footer a{
 
 
 @media screen and (min-width: 900px){
-
-    #button5:hover,
-    #button4:hover,
-    #button3:hover,
-    #button2:hover,
-    #button1:hover{
-    transition: 0.5s;
-    color:var(--white);
-    padding: 2px;
-    transition: .5s;
-}
-    
+   
     #button1:hover::before{
         content: "Jon & Hope";
         position:absolute;
@@ -198,7 +193,6 @@ footer a{
         font-size: 50px;
         background-color: var(--background-transparent);
         color:var(--white);
-        transition: 2s;
         padding: 5px;
     }
 
@@ -212,7 +206,6 @@ footer a{
         font-size: 50px;
         background-color: var(--background-transparent);
         color:var(--white);
-        transition: 2s;
         padding: 5px;
     }
     #button3:hover::before{
@@ -225,7 +218,6 @@ footer a{
         font-size: 50px;
         background-color: var(--background-transparent);
         color:var(--white);
-        transition: 2s;
         padding: 5px;
     }
 
@@ -239,7 +231,6 @@ footer a{
         font-size: 50px;
         background-color: var(--background-transparent);
         color:var(--white);
-        transition: 2s;
         padding: 5px;
     }
     #button5:hover::before{
@@ -252,7 +243,19 @@ footer a{
         font-size: 50px;
         background-color: var(--background-transparent);
         color:var(--white);
-        transition: 2s;
+        padding: 5px;
+    }
+
+    #button6:hover::before{
+        content: "Ryan and Kai";
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 50px;
+        background-color: var(--background-transparent);
+        color:var(--white);
         padding: 5px;
     }
 
