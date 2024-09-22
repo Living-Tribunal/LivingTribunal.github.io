@@ -7,6 +7,7 @@
     --background: rgb(43, 43, 43);
     --background-transparent: rgba(43, 43, 43, .5);
     --white: rgb(251,247,245);
+    --brown: rgb(196, 174, 120);
   }
 
 *{
@@ -42,7 +43,7 @@ body{
   .navbar{
     max-width: 100%;
     margin: auto;
-    padding: 25px 0;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -52,10 +53,9 @@ body{
 }
 
 .logo{
-    width: clamp(1rem, 80px, 20rem);
+    width: clamp(1rem, 100px, 20rem);
     cursor: pointer;
     filter: invert(75%);
-    padding: 2px;
 }
 
 .navbar ul li{
@@ -63,7 +63,7 @@ body{
     display: inline-block;
     margin: 0 5px;
     position: relative;
-    font-size: clamp(.5rem, 4vw, 1.5rem);
+    font-size: clamp(.5rem, 1vw, 1.5rem);
  }
 
 
