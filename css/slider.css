@@ -42,6 +42,10 @@ body{
     padding: 2px;
 }
 
+p{
+    font-size: 15px;
+}
+
 .navbar ul li{
     list-style: none;
     display: inline-block;
@@ -128,7 +132,7 @@ body{
 }
 .slider .list .item.active p:nth-child(1),
 .slider .list .item.active h2,
-.slider .list .item.active p:nth-child(3){
+.slider .list .item.active p:nth-child(0){
     transform: translateY(30px);
     filter: blur(20px);
     opacity: 0;

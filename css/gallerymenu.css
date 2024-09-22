@@ -177,6 +177,9 @@ footer a{
 
 @media screen and (min-width: 900px){
 
+    #button5:hover,
+    #button4:hover,
+    #button3:hover,
     #button2:hover,
     #button1:hover{
     transition: 0.5s;
@@ -186,12 +189,13 @@ footer a{
 }
     
     #button1:hover::before{
-        content: "Jon & Hope Engagement";
+        content: "Jon & Hope";
         position:absolute;
         top: 50%;
         left: 50%;
+        width: 100%;
         transform: translate(-50%, -50%);
-        font-size: 40px;
+        font-size: 50px;
         background-color: var(--background-transparent);
         color:var(--white);
         transition: 2s;
@@ -199,12 +203,53 @@ footer a{
     }
 
     #button2:hover::before{
-        content: "Dee & Penny Engagement";
+        content: "Dee & Penny";
         position:absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 40px;
+        width: 100%;
+        font-size: 50px;
+        background-color: var(--background-transparent);
+        color:var(--white);
+        transition: 2s;
+        padding: 5px;
+    }
+    #button3:hover::before{
+        content: "Chris & Laura";
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 50px;
+        background-color: var(--background-transparent);
+        color:var(--white);
+        transition: 2s;
+        padding: 5px;
+    }
+
+    #button4:hover::before{
+        content: "Dylan & Shelby";
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 50px;
+        background-color: var(--background-transparent);
+        color:var(--white);
+        transition: 2s;
+        padding: 5px;
+    }
+    #button5:hover::before{
+        content: "Joe and Arielle";
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 50px;
         background-color: var(--background-transparent);
         color:var(--white);
         transition: 2s;
@@ -227,27 +272,66 @@ footer a{
 
 @media screen and (max-width: 678px){
     #button1::before{
-        content: "Jon & Hope Engagement";
+        content: "Jon & Hope";
         position:absolute;
         top: 50%;
         left: 50%;
+        width: 100%;
         transform: translate(-50%, -50%);
-        font-size: 40px;
+        font-size: 50px;
         background-color: var(--background-transparent);
         color:var(--white);
     }
 
 
     #button2::before{
-        content: "Dee & Penny Engagement";
+        content: "Dee & Penny";
         position:absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 40px;
+        width: 100%;
+        font-size: 50px;
         background-color: var(--background-transparent);
         color:var(--white);
     }
+
+    #button3::before{
+        content: "Chris & Laura";
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 50px;
+        background-color: var(--background-transparent);
+        color:var(--white);
+    }
+
+    #button4::before{
+        content: "Dylan & Shelby";
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 50px;
+        background-color: var(--background-transparent);
+        color:var(--white);
+    }
+
+    #button5::before{
+        content: "Joe and Arielle";
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 50px;
+        background-color: var(--background-transparent);
+        color:var(--white);
+    }
+
     .wedding li{
         margin:auto;
         list-style-type:none;
