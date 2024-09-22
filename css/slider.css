@@ -215,12 +215,15 @@ p{
         height: 265px;
     }
     .slider .list .item .content h2{
-        font-size: 60px;
+        font-size: 40px;
     }
     .arrows{
         top: 10%;
     }
     .navbar ul li{
         font-size: clamp(.5rem, 2.5vw, 1.5rem);
+     }
+     .slider .list .item .content p{
+        font-size: 10px;
      }
 }
