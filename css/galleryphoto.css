@@ -39,13 +39,11 @@ body{
     justify-content: space-evenly;
     position: relative;
     z-index: 100;
-    background-color: var(--white);
 }
 
 .logo{
     width: clamp(1rem, 100px, 20rem);
     cursor: pointer;
-    filter: invert(75%);
 }
 
 h1{

@@ -39,7 +39,6 @@ body{
     width: 50%;
     object-fit: cover;
   }
-
   .navbar{
     max-width: 100%;
     margin: auto;
@@ -49,13 +48,11 @@ body{
     justify-content: space-evenly;
     position: relative;
     z-index: 100;
-    background-color: var(--white);
 }
 
 .logo{
     width: clamp(1rem, 100px, 20rem);
     cursor: pointer;
-    filter: invert(75%);
 }
 
 .navbar ul li{
@@ -69,7 +66,7 @@ body{
 
 .navbar ul li a{
     text-decoration: none;
-    color:var(--background);
+    color:var(--white);
     text-transform: uppercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -78,7 +75,7 @@ body{
     content:"";
     height: 2px;
     width: 0%;
-    background: var(--background);
+    background: var(--white);
     position: absolute;
     left: 0px;
     bottom: -2px;
