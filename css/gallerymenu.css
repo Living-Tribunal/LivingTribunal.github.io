@@ -6,7 +6,7 @@
 :root {
     --background: rgb(43, 43, 43);
     --background-transparent: rgba(43, 43, 43, .5);
-    --white: rgb(251,247,245);
+    --white: rgb(249, 246, 240);
     --brown: rgb(196, 174, 120);
   }
 
@@ -163,7 +163,8 @@ button{
 }
 
 .photo{
-    columns: 500px;
+    padding: 20px;
+    columns: 400px;
 
 }
 
@@ -182,9 +183,14 @@ footer a{
 
 
 @media screen and (min-width: 900px){
-   
+
+    #button7:hover::before,
+    #button6:hover::before,
+    #button5:hover::before,
+    #button4:hover::before,
+    #button3:hover::before,
+    #button2:hover::before,
     #button1:hover::before{
-        content: "Jon & Hope";
         position:absolute;
         top: 50%;
         left: 50%;
@@ -193,70 +199,33 @@ footer a{
         font-size: 50px;
         background-color: var(--background-transparent);
         color:var(--white);
-        padding: 5px;
+        padding: 5px;  
+    }
+   
+    #button1:hover::before{
+        content: "Jon & Hope";
     }
 
     #button2:hover::before{
         content: "Dee & Penny";
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        font-size: 50px;
-        background-color: var(--background-transparent);
-        color:var(--white);
-        padding: 5px;
     }
     #button3:hover::before{
         content: "Chris & Laura";
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        font-size: 50px;
-        background-color: var(--background-transparent);
-        color:var(--white);
-        padding: 5px;
     }
 
     #button4:hover::before{
         content: "Dylan & Shelby";
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        font-size: 50px;
-        background-color: var(--background-transparent);
-        color:var(--white);
-        padding: 5px;
     }
     #button5:hover::before{
         content: "Joe and Arielle";
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        font-size: 50px;
-        background-color: var(--background-transparent);
-        color:var(--white);
-        padding: 5px;
     }
 
     #button6:hover::before{
         content: "Ryan and Kai";
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        font-size: 50px;
-        background-color: var(--background-transparent);
-        color:var(--white);
-        padding: 5px;
+    }
+
+    #button7:hover::before{
+        content: "Cody and Alexis";
     }
 
     .wedding li{
@@ -274,8 +243,15 @@ footer a{
 }
 
 @media screen and (max-width: 678px){
-    #button1::before{
-        content: "Jon & Hope";
+    
+    #button1::before,
+    #button2::before,
+    #button3::before,
+    #button4::before,
+    #button5::before,
+    #button5::before,
+    #button6::before,
+    #button7::before{
         position:absolute;
         top: 50%;
         left: 50%;
@@ -284,55 +260,36 @@ footer a{
         font-size: 50px;
         background-color: var(--background-transparent);
         color:var(--white);
+    }
+    
+    
+    #button1::before{
+        content: "Jon & Hope";
     }
 
 
     #button2::before{
         content: "Dee & Penny";
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        font-size: 50px;
-        background-color: var(--background-transparent);
-        color:var(--white);
     }
 
     #button3::before{
         content: "Chris & Laura";
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        font-size: 50px;
-        background-color: var(--background-transparent);
-        color:var(--white);
     }
 
     #button4::before{
         content: "Dylan & Shelby";
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        font-size: 50px;
-        background-color: var(--background-transparent);
-        color:var(--white);
     }
 
     #button5::before{
         content: "Joe and Arielle";
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        font-size: 50px;
-        background-color: var(--background-transparent);
-        color:var(--white);
+    }
+
+    #button6::before{
+        content: "Ryan and Kai";
+    }
+
+    #button7::before{
+        content: "Cody and Alexis";
     }
 
     .wedding li{

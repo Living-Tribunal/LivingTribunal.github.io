@@ -6,7 +6,7 @@
 :root {
     --background: rgb(43, 43, 43);
     --background-transparent: rgba(43, 43, 43, .5);
-    --white: rgb(251,247,245);
+    --white: rgb(249, 246, 240);
     --brown: rgb(196, 174, 120);
   }
 
@@ -177,7 +177,7 @@ label{
 
 #mysubmit:hover{
     border: 2px solid var(--background);
-    background-color:gold;
+    background-color:var(--brown);
     transition: 0.5s;
     color:var(--background);
 }
