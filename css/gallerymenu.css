@@ -187,6 +187,8 @@ footer a{
 
 @media screen and (min-width: 900px){
 
+    #button10:hover::before,
+    #button9:hover::before,
     #button8:hover::before,
     #button7:hover::before,
     #button6:hover::before,
@@ -236,6 +238,14 @@ footer a{
         content: "Jesse and Sam";
     }
 
+    #button9:hover::before{
+        content: "Gabe and Lauri";
+    }
+
+    #button10:hover::before{
+        content: "Ryan and Jenni";
+    }
+
     .wedding li{
         width: 60%;
         margin:auto;
@@ -260,7 +270,9 @@ footer a{
     #button5::before,
     #button6::before,
     #button7::before,
-    #button8::before{
+    #button8::before,
+    #button9::before,
+    #button10::before{
         position:absolute;
         top: 50%;
         left: 50%;
@@ -302,6 +314,14 @@ footer a{
     #button8::before{
         content: "Jesse and Sam";
     }
+
+    #button9::before{
+        content: "Gabe and Lauri";
+    }
+    #button10::before{
+        content: "Gabe and Lauri";
+    }
+
 
     .wedding li{
         margin:auto;
