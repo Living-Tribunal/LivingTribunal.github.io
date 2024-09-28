@@ -319,7 +319,7 @@ footer a{
         content: "Gabe and Lauri";
     }
     #button10::before{
-        content: "Gabe and Lauri";
+        content: "Ryan and Jenni";
     }
 
 
@@ -335,6 +335,7 @@ footer a{
     }
     .navbar ul li{
         font-size: clamp(.5rem, 2.5vw, 1.5rem);
+        margin: 0 1px;
      }
 
 }
