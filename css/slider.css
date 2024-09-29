@@ -45,9 +45,8 @@ body{
     display: inline-block;
     margin: 0 5px;
     position: relative;
-    font-size: clamp(1rem, 1vw, 1.5rem);
+    font-size: clamp(.5rem, 1vw, 1.5rem);
  }
-
 
 .navbar ul li a{
     text-decoration: none;
@@ -206,7 +205,16 @@ body{
     background-color: var(--background-transparent);
     text-align: center;
 }
-@media screen and (max-width: 678px) {
+
+@media screen and (max-width: 900px){
+
+    .navbar ul li{
+        font-size: clamp(.4rem, 2vw, 1rem);
+        margin: 0 1px;
+     }
+}
+
+@media screen and (max-width: 600px) {
     .thumbnail{
         justify-content: start;
         height: 130px;

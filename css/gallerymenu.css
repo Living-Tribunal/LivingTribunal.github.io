@@ -184,10 +184,21 @@ footer a{
     color:var(--white);
 }
 
+.wedding li{
+    width: 60%;
+    margin:auto;
+    list-style-type:none;
+    font-size: clamp(1.5rem, 1rem, 4rem);
+    color: var(--white);
+    text-align:center;
+    background-color: var(--background-transparent);
+    line-height: 1.6;
+    border: 2px solid var(--white);
+    width: 60%;
+}
 
-@media screen and (min-width: 900px){
 
-    #button10:hover::before,
+#button10:hover::before,
     #button9:hover::before,
     #button8:hover::before,
     #button7:hover::before,
@@ -246,21 +257,95 @@ footer a{
         content: "Ryan and Jenni";
     }
 
+@media screen and (max-width: 900px){
+
+    .photo{
+        columns: 350px;
+    
+    }
+
     .wedding li{
         width: 60%;
         margin:auto;
         list-style-type:none;
-        font-size: clamp(2rem, 2rem, 8rem);
+        font-size: clamp(1.5rem, 1rem, 4rem);
         color: var(--white);
         text-align:center;
         background-color: var(--background-transparent);
         line-height: 1.6;
         border: 2px solid var(--white);
+        width: 100%;
     }
+
+    .navbar ul li{
+        font-size: clamp(.4rem, 2vw, 1rem);
+        margin: 0 1px;
+     }
+
+     #button1::before,
+     #button2::before,
+     #button3::before,
+     #button4::before,
+     #button5::before,
+     #button5::before,
+     #button6::before,
+     #button7::before,
+     #button8::before,
+     #button9::before,
+     #button10::before{
+         position:absolute;
+         top: 50%;
+         left: 50%;
+         width: 100%;
+         transform: translate(-50%, -50%);
+         font-size: 50px;
+         background-color: var(--background-transparent);
+         color:var(--white);
+     }
+     
+     #button1::before{
+         content: "Jon & Hope";
+     }
+ 
+     #button2::before{
+         content: "Dee & Penny";
+     }
+ 
+     #button3::before{
+         content: "Chris & Laura";
+     }
+ 
+     #button4::before{
+         content: "Dylan & Shelby";
+     }
+ 
+     #button5::before{
+         content: "Joe and Arielle";
+     }
+ 
+     #button6::before{
+         content: "Ryan and Kai";
+     }
+ 
+     #button7::before{
+         content: "Cody and Alexis";
+     }
+ 
+     #button8::before{
+         content: "Jesse and Sam";
+     }
+ 
+     #button9::before{
+         content: "Gabe and Lauri";
+     }
+     #button10::before{
+         content: "Ryan and Jenni";
+     }
+
     
 }
 
-@media screen and (max-width: 678px){
+@media only screen and (max-width: 600px){
     
     #button1::before,
     #button2::before,
@@ -322,16 +407,16 @@ footer a{
         content: "Ryan and Jenni";
     }
 
-
     .wedding li{
         margin:auto;
         list-style-type:none;
-        font-size: clamp(2rem, 2rem, 8rem);
+        font-size: clamp(1.5rem, 1rem, 4rem);
         color: var(--white);
         text-align:center;
         background-color: var(--background-transparent);
         line-height: 1.6;
         border: 2px solid var(--white);
+        width: 100%;
     }
     .navbar ul li{
         font-size: clamp(.5rem, 2.5vw, 1.5rem);

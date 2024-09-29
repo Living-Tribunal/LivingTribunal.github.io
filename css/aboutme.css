@@ -203,8 +203,21 @@ input[value]{
     font-style: italic;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-transparent);
+    width: 50%;
+    margin:auto;
+    border: 2px var(--white) solid;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px
+}
 
-@media screen and (min-width: 900px){
+
+@media screen and (max-width: 900px){
 
     form{
         display: flex;
@@ -218,9 +231,14 @@ input[value]{
         padding-left: 25px;
         padding-right: 25px
     }
+
+    .navbar ul li{
+        font-size: clamp(.4rem, 2vw, 1rem);
+        margin: 0 1px;
+     }
     }
 
-@media screen and (max-width: 678px){
+@media screen and (max-width: 600px){
 
     form{
         display: flex;
