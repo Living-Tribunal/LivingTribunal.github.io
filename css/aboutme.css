@@ -223,7 +223,7 @@ form{
         display: flex;
         flex-direction: column;
         background-color: var(--background-transparent);
-        width: 50%;
+        width: 80%;
         margin:auto;
         border: 2px var(--white) solid;
         padding-top: 25px;

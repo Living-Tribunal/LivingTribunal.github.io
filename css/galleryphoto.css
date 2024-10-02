@@ -78,7 +78,6 @@ h2{
     font-size: clamp(.5rem, 1vw, 1.5rem);
  }
 
-
 .navbar ul li a{
     text-decoration: none;
     color: var(--background);
